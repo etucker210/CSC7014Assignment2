@@ -43,13 +43,30 @@ public class Assignment2 {
      *                number2 - int - The second number to multiply
      * Output:        int - the value of number1 times number2
      *
-     * Description:   This program multiplies number1 and number2
+     * Description:   This function multiplies number1 and number2
      *
      ********************************************************************/
 
     private static int calculateProduct( int number1, int number2 ) {
 
         return number1 * number2;
+
+    }
+
+    /* *******************************************************************
+     *
+     * Function Name: calculateSum
+     * Inputs:        number1 - int - The first number to add
+     *                number2 - int - The second number to add
+     * Output         int - The value of number1 plus number2
+     *
+     * Description:   This function adds number1 and number2
+     *
+     ********************************************************************/
+
+    private  static  int calculateSum( int number1, int number2 ) {
+
+        return number1 + number2;
 
     }
 }
