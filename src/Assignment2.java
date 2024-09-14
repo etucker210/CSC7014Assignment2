@@ -15,8 +15,23 @@
  * Date & Time         | Description
  * --------------------|-----------------------------
  * 14 Sep 2024 11:54AM | Create the assignment class
+ * 14 Sep 2024 12:29PM | Create the main function
  *
  ************************************************************************/
 
 public class Assignment2 {
+
+    /* *******************************************************************
+     *
+     * Function name: main
+     * Inputs:        args - String[] - the arguments passed when the
+     *                                  program is called
+     * Output:        none
+     *
+     * Description:   The main function that handles most of the code
+     *
+     ********************************************************************/
+    public static void main(String[] args) {
+
+    }
 }
