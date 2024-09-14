@@ -13,9 +13,10 @@
  * Change Log:
  *
  * Date & Time         | Description
- * --------------------|-----------------------------
+ * --------------------|-------------------------------------
  * 14 Sep 2024 11:54AM | Create the assignment class
  * 14 Sep 2024 12:29PM | Create the main function
+ * 14 Sep 2024 12:37PM | Make the calculateProduct function
  *
  ************************************************************************/
 
@@ -32,6 +33,23 @@ public class Assignment2 {
      *
      ********************************************************************/
     public static void main(String[] args) {
+
+    }
+
+    /* *******************************************************************
+     *
+     * Function Name: calculateProduct
+     * Input:         number1 - int - The first number to multiply
+     *                number2 - int - The second number to multiply
+     * Output:        int - the value of number1 times number2
+     *
+     * Description:   This program multiplies number1 and number2
+     *
+     ********************************************************************/
+
+    private static int calculateProduct( int number1, int number2 ) {
+
+        return number1 * number2;
 
     }
 }
